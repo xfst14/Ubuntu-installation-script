@@ -13,4 +13,4 @@ sudo apt autopurge gnome-keyring libpam-gnome-keyring gstreamer1.0-vaapi firefox
 sudo apt upgrade
 sudo apt autopurge
 sudo e4defrag /home
-
+init 6
