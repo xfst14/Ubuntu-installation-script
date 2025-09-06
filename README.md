@@ -1,5 +1,5 @@
 # Ubuntu-installation-script
-This is a simple script for you to fully set up Ubuntu in one go, all with a simple execution.
+This is a simple script for you to fully set up Ubuntu in one go, all with a simple execution. It is a highly beneficial tool for everyone, especially new users who are trying to setup Ubuntu desktop or its deriatives (e.g. Linux Mint, Pop!OS) for the first time.
 # How can you use this script?
 The procedures is very simple.
 First, allow this script to be executed by simply heading to your folder containing this script you just extracted, then use the following command:
