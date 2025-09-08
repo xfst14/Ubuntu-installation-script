@@ -8,11 +8,28 @@
 
 sudo add-apt-repository ppa:bamboo-engine/ibus-bamboo
 sudo apt update
-sudo apt install ibus-bamboo ibus bleachbit kazam python3-pip yt-dlp neofetch spice-vdagent flatpak
+sudo apt install ibus-bamboo ibus bleachbit kazam python3-pip yt-dlp neofetch spice-vdagent flatpak gnome-software-plugin-flatpak
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-sudo apt autopurge gnome-keyring libpam-gnome-keyring gstreamer1.0-vaapi firefox thunderbird libreoffice-common timeshift celluloid rhythmbox libreoffice-uiconfig-common libreoffice-uiconfig-writer libreoffice-uiconfig-calc libreoffice-uiconfig-impress libreoffice-uiconfig-draw gnome-calendar gnome-calculator xviewer xreader drawing hypnotix xed snapd kwrite gwenview kontact
+
+sudo apt-mark manual mint-meta-cinnmon
+sudo apt-mark manual mint-meta-mate
+sudo apt-mark manual mint-meta-xfce
+sudo apt-mark manual mint-meta-core
+
+sudo apt autopurge gnome-keyring libpam-gnome-keyring gstreamer1.0-vaapi
+sudo apt autopurge firefox thunderbird libreoffice-common
+sudo apt autopurge timeshift celluloid rhythmbox
+sudo apt autopurge libreoffice-uiconfig-common libreoffice-uiconfig-writer libreoffice-uiconfig-calc libreoffice-uiconfig-impress libreoffice-uiconfig-draw
+sudo apt autopurge gnome-clocks gnome-calendar gnome-calculator gnome-text-editor eog
+sudo apt autopurge evince
+sudo apt autopurge xviewer xreader xed
+sudo apt autopurge hypnotix
+sudo apt autopurge drawing
+sudo apt autopurge kwrite gwenview kontact kclock
+sudo apt autopurge snapd
+sudo apt autopurge mintinstall
+sudo apt autopurge plasma-discover
 sudo apt upgrade
 sudo apt autopurge
 sudo e4defrag /home
 init 6
-
