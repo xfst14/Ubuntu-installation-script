@@ -27,6 +27,7 @@ sudo apt autopurge hypnotix
 sudo apt autopurge drawing
 sudo apt autopurge kwrite gwenview kontact kclock
 sudo apt autopurge snapd
+sudo apt autopurge imagemagick-6-common
 sudo apt autopurge mintinstall
 sudo apt autopurge plasma-discover
 sudo apt upgrade
