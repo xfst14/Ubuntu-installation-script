@@ -25,7 +25,7 @@ sudo apt autopurge evince
 sudo apt autopurge xviewer xreader xed
 sudo apt autopurge hypnotix
 sudo apt autopurge drawing
-sudo apt autopurge kwrite gwenview kontact kclock
+sudo apt autopurge kwrite gwenview kontact kclock kate
 sudo apt autopurge snapd
 sudo apt autopurge imagemagick-6-common
 sudo apt autopurge mintinstall
