@@ -8,7 +8,7 @@
 
 sudo add-apt-repository ppa:bamboo-engine/ibus-bamboo
 sudo apt update
-sudo apt install ibus-bamboo ibus bleachbit kazam python3-pip yt-dlp neofetch spice-vdagent flatpak gnome-software-plugin-flatpak
+sudo apt install ibus-bamboo ibus bleachbit kazam python3-pip yt-dlp neofetch spice-vdagent flatpak gnome-software-plugin-flatpak gnome-screenshot
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 sudo apt-mark manual mint-meta-cinnamon
