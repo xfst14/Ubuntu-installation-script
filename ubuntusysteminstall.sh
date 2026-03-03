@@ -8,13 +8,10 @@
 
 sudo add-apt-repository ppa:bamboo-engine/ibus-bamboo
 sudo apt update
-sudo apt install ibus-bamboo ibus bleachbit kazam python3-pip yt-dlp neofetch spice-vdagent flatpak gnome-software-plugin-flatpak gnome-screenshot
+sudo apt install ibus-bamboo ibus bleachbit kazam python3-pip yt-dlp neofetch spice-vdagent gnome-software-plugin-flatpak
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
-sudo apt-mark manual mint-meta-cinnamon
-sudo apt-mark manual mint-meta-mate
-sudo apt-mark manual mint-meta-xfce
-sudo apt-mark manual mint-meta-core
+
 
 sudo apt autopurge gnome-keyring libpam-gnome-keyring gstreamer1.0-vaapi
 sudo apt autopurge firefox thunderbird libreoffice-common
@@ -30,6 +27,7 @@ sudo apt autopurge snapd
 sudo apt autopurge imagemagick-6-common
 sudo apt autopurge mintinstall
 sudo apt autopurge plasma-discover
+sudo apt autopurge ubuntu-report whoopsie
 sudo apt upgrade
 sudo apt autopurge
 sudo e4defrag /home
