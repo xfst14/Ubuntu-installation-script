@@ -8,7 +8,7 @@
 
 sudo add-apt-repository ppa:bamboo-engine/ibus-bamboo
 sudo apt update
-sudo apt install ibus-bamboo ibus bleachbit kazam python3-pip yt-dlp neofetch spice-vdagent gnome-software-plugin-flatpak xorg x11-apps x11-utils plasma-session-x11
+sudo apt install ibus-bamboo ibus bleachbit kazam python3-pip yt-dlp neofetch spice-vdagent gnome-software-plugin-flatpak xserver-xorg-core x11-apps x11-utils xorg
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 
